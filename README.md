@@ -32,10 +32,10 @@ These are ideas to test, not proven savings:
 - Investigate what drove the January peak.
 
 ## Files
-- `energy_project.sql` and `energy_project2.sql`: SQL scripts (table setup and date conversion, and the eight analysis queries)
+- `01_setup_and_cleaning.sql`: creates the table and converts the text dates to DATETIME
+- `02_analysis_queries.sql`: the eight analysis queries
 - `energy_dashboard.pbix`: Power BI dashboard file
 - `dashboard.png`: dashboard screenshot
-- `energy_project.csv`: cleaned data export
-
+- `energy_data_export.csv`: cleaned data export used in Power BI
 ## Limitations
 One plant, one year, no weather or production data, so the findings describe patterns, not causes.
